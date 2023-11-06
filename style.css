@@ -1,0 +1,28 @@
+@import url("styles.css/header.css");
+@import url("styles.css/banner.css");
+@import url("styles.css/carrosel.css");
+@import url("styles.css/cardescricao.css");
+@import url("styles.css/topicos.css");
+@import url("styles.css/contatos.css");
+@import url("styles.css/rodape.css");
+
+
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --cor-header-fundo: #FFFFFF;
+    --cor-header-destaque: #EB9B00;
+    --cor-degrade:  linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --font-titulo-header: "Poppins";
+    --cor-titulo-azul: #002F52;
+    --cor-texto:rgba(0, 0, 0, 0.85);
+    --font-secundaria: 'Josefin Sans';
+    --cor-cinza:#474646;
+    --cor-cinza2: #858585;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-titulo-header);
+    
+}
